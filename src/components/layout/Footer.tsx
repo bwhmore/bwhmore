@@ -30,7 +30,7 @@ const Footer = () => {
               <img 
                 src="/public/lovable-uploads/d1fe8f30-b471-4625-ae69-5ced38b2356e.png" 
                 alt="Black Women's Health Logo" 
-                className="h-12 mr-2"
+                className="h-20"
               />
             </div>
             <p className="mb-4 text-gray-300">
