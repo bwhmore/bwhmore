@@ -5,7 +5,7 @@ import Hero from "@/components/home/Hero";
 import StatSection from "@/components/home/StatSection";
 import ProgramPillars from "@/components/home/ProgramPillars";
 import AboutSection from "@/components/home/AboutSection";
-import ContactForm from "@/components/home/ContactForm";
+import ContactForm from "@/components/home/ContactFormNew";
 import CtaSection from "@/components/home/CtaSection";
 
 const Index = () => {

@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <button onClick={() => navigateTo('/')} className="flex items-center">
               <img 
-                src="/public/lovable-uploads/e00805b8-3d7e-48a4-8c02-6f7927eea08e.png" 
+                src="/lovable-uploads/e00805b8-3d7e-48a4-8c02-6f7927eea08e.png" 
                 alt="Black Women's Health Logo" 
                 className="h-16"
               />
@@ -50,8 +50,7 @@ const Navbar = () => {
             <button onClick={() => navigateTo('/')} className="text-gray-700 hover:text-more-purple px-3 py-2 font-medium">Home</button>
             <button onClick={() => navigateTo('#program')} className="text-gray-700 hover:text-more-purple px-3 py-2 font-medium">Program</button>
             <button onClick={() => navigateTo('#about')} className="text-gray-700 hover:text-more-purple px-3 py-2 font-medium">About</button>
-            <button onClick={() => navigateTo('#contact')} className="text-gray-700 hover:text-more-purple px-3 py-2 font-medium">Contact</button>
-            <Button onClick={() => navigateTo('/join')} className="more-button ml-4">Join Now</Button>
+            <Button onClick={() => navigateTo('#get-started-form')} className="more-button ml-4">Join Now</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,14 +87,8 @@ const Navbar = () => {
           >
             About
           </button>
-          <button 
-            onClick={() => navigateTo('#contact')}
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-more-purple hover:bg-gray-50"
-          >
-            Contact
-          </button>
           <div className="pt-2">
-            <Button onClick={() => navigateTo('/join')} className="more-button w-full">Join Now</Button>
+            <Button onClick={() => navigateTo('#get-started-form')} className="more-button w-full">Join Now</Button>
           </div>
         </div>
       </div>

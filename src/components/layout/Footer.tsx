@@ -28,7 +28,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/public/lovable-uploads/d1fe8f30-b471-4625-ae69-5ced38b2356e.png" 
+                src="/lovable-uploads/d1fe8f30-b471-4625-ae69-5ced38b2356e.png" 
                 alt="Black Women's Health Logo" 
                 className="h-20"
               />
