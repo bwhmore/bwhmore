@@ -1,9 +1,24 @@
 
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const navigate = useNavigate();
+  
+  // Helper function for navigation
+  const navigateTo = (path: string) => {
+    if (path.startsWith('#')) {
+      // Handle anchor links
+      const element = document.querySelector(path);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // Handle regular page navigation
+      navigate(path);
+    }
+  };
   
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-8">
@@ -26,16 +41,36 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors">Home</Link>
+                <button 
+                  onClick={() => navigateTo('/')}
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Home
+                </button>
               </li>
               <li>
-                <Link to="#program" className="text-gray-300 hover:text-white transition-colors">Our Program</Link>
+                <button 
+                  onClick={() => navigateTo('#program')}
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Our Program
+                </button>
               </li>
               <li>
-                <Link to="#about" className="text-gray-300 hover:text-white transition-colors">About Us</Link>
+                <button 
+                  onClick={() => navigateTo('#about')}
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  About Us
+                </button>
               </li>
               <li>
-                <Link to="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link>
+                <button 
+                  onClick={() => navigateTo('#contact')}
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Contact
+                </button>
               </li>
             </ul>
           </div>
@@ -67,8 +102,18 @@ const Footer = () => {
               &copy; {currentYear} BlackWomensHealth.com. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <Link to="#" className="text-xs text-gray-400 hover:text-white">Privacy Policy</Link>
-              <Link to="#" className="text-xs text-gray-400 hover:text-white">Terms of Service</Link>
+              <button 
+                onClick={() => navigateTo('/privacy')}
+                className="text-xs text-gray-400 hover:text-white"
+              >
+                Privacy Policy
+              </button>
+              <button 
+                onClick={() => navigateTo('/terms')}
+                className="text-xs text-gray-400 hover:text-white"
+              >
+                Terms of Service
+              </button>
             </div>
           </div>
         </div>
