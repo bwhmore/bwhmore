@@ -37,7 +37,11 @@ const Navbar = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <button onClick={() => navigateTo('/')} className="flex items-center">
-              <span className="text-2xl font-display font-bold text-more-purple">MORE!</span>
+              <img 
+                src="/public/lovable-uploads/d1fe8f30-b471-4625-ae69-5ced38b2356e.png" 
+                alt="Black Women's Health Logo" 
+                className="h-10 mr-2"
+              />
               <span className="ml-2 text-sm text-gray-600 hidden sm:inline-block">
                 Metabolically Optimized<br />
                 Rejuvenated & Energized
