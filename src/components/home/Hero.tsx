@@ -35,8 +35,8 @@ const Hero = () => {
           {/* Image */}
           <div className="order-1 md:order-2 flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-              alt="Black woman smiling in a healthcare setting"
+              src="/public/lovable-uploads/89ae3e64-b07d-4b7d-b026-dbdf118a0ca5.png"
+              alt="Group of smiling Black women"
               className="rounded-2xl shadow-xl w-full max-w-md object-cover h-[500px]"
             />
           </div>
