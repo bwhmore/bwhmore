@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <button onClick={() => navigateTo('/')} className="flex items-center">
               <img 
-                src="/public/lovable-uploads/d1fe8f30-b471-4625-ae69-5ced38b2356e.png" 
+                src="/public/lovable-uploads/e00805b8-3d7e-48a4-8c02-6f7927eea08e.png" 
                 alt="Black Women's Health Logo" 
                 className="h-16"
               />
