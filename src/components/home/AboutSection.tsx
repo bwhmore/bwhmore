@@ -5,12 +5,9 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6 gradient-heading">Our Vision</h2>
-            <p className="text-lg text-gray-700 mb-6">
-              <span className="highlight-text">MORE!</span> is a clinical and behavior-based program that focuses on metabolic optimization, weight management, and mental rejuvenation.
-            </p>
+            <h3 className="text-2xl font-bold mb-4 text-more-purple">MORE Program!</h3>
             <p className="text-gray-600 mb-6">
-              Our program helps prevent and reverse diabetes, hypertension, and hyperlipidemia, while optimizing weight and metabolic health. We focus on the unique health challenges faced by Black women with a culturally relevant approach.
+              A clinical and behavior-based program that focuses on metabolic optimization, weight management, and mental rejuvenation.
             </p>
             <p className="text-gray-600">
               Under the leadership of Board-Certified Internal Medicine physicians, we deliver a comprehensive health transformation experience that addresses both the physical and spiritual aspects of wellness.

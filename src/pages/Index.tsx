@@ -2,6 +2,9 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
+import ProgramOverview from "@/components/home/ProgramOverview";
+import Vision from "@/components/home/Vision";
+import WhyThisMatters from "@/components/home/WhyThisMatters";
 import StatSection from "@/components/home/StatSection";
 import ProgramPillars from "@/components/home/ProgramPillars";
 import AboutSection from "@/components/home/AboutSection";
@@ -14,6 +17,9 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <ProgramOverview />
+        <Vision />
+        <WhyThisMatters />
         <StatSection />
         <ProgramPillars />
         <AboutSection />

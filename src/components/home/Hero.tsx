@@ -17,7 +17,7 @@ const Hero = () => {
               <span className="bg-gradient-to-r from-[#5A1D69] to-[#FFE000] bg-clip-text text-transparent">Ready to be MORE?</span>
             </h1>
             <h2 className="text-[#5A1D69] text-2xl md:text-3xl font-medium mb-8">
-              Be Metabolically Optimized<br />
+              Be Metabolically Optimized,<br />
               Rejuvenated & Energized.
             </h2>
             
@@ -27,11 +27,8 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#get-started-form" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#5A1D69] text-white hover:bg-[#451552] px-4 py-2">
+              <a href="#get-started-form" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-r from-[#5A1D69] to-[#FFE000] text-white hover:from-[#451552] hover:to-[#FFD700] px-4 py-2">
                 Join Our Program
-              </a>
-              <a href="#about" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#FFE000] text-[#5A1D69] hover:bg-[#FFD700] px-4 py-2">
-                Learn More
               </a>
             </div>
           </div>

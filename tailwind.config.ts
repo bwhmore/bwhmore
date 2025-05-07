@@ -29,6 +29,21 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				purple: {
+					50: '#f7f1ff',
+					100: '#f0e7ff',
+					200: '#e2d9ff',
+					300: '#d4cbff',
+					400: '#c6bcff',
+					500: '#b8abff',
+					600: '#a999ff',
+					700: '#9a87ff',
+					800: '#8b75ff',
+					900: '#7c63ff',
+					950: '#6d51ff',
+					logo: '#5A1D69',
+					logoHover: '#451552'
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'

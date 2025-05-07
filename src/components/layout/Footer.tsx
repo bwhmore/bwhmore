@@ -21,22 +21,18 @@ const Footer = () => {
   };
   
   return (
-    <footer className="bg-gray-900 text-white pt-12 pb-8">
+    <footer className="bg-[#5A1D69] text-white pt-12 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/d1fe8f30-b471-4625-ae69-5ced38b2356e.png" 
+                src="/BWH-2.png" 
                 alt="Black Women's Health Logo" 
-                className="h-20"
+                className="h-16"
               />
             </div>
-            <p className="mb-4 text-gray-300">
-              Metabolically Optimized<br />
-              Rejuvenated & Energized
-            </p>
             <p className="text-sm text-gray-400">
               A health transformation program led by Board-Certified Internal Medicine physicians.
             </p>
@@ -45,7 +41,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <ul className="space-y-2 text-white/80">
               <li>
                 <button 
                   onClick={() => navigateTo('/')}
@@ -70,14 +66,6 @@ const Footer = () => {
                   About Us
                 </button>
               </li>
-              <li>
-                <button 
-                  onClick={() => navigateTo('#contact')}
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  Contact
-                </button>
-              </li>
             </ul>
           </div>
           
@@ -96,30 +84,16 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-sm text-gray-400">
-              Email: info@blackwomenshealth.com<br />
-              Phone: (555) 123-4567
+              <a href="mailto:bwhmore@gmail.com" className="text-white/80 hover:text-white">bwhmore@gmail.com</a>
             </p>
           </div>
         </div>
-        
         <div className="border-t border-gray-700 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-gray-400">
-              &copy; {currentYear} BlackWomensHealth.com. All rights reserved.
-            </p>
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <button 
-                onClick={() => navigateTo('/privacy')}
-                className="text-xs text-gray-400 hover:text-white"
-              >
-                Privacy Policy
-              </button>
-              <button 
-                onClick={() => navigateTo('/terms')}
-                className="text-xs text-gray-400 hover:text-white"
-              >
-                Terms of Service
-              </button>
+            <p className="text-sm text-gray-400">&copy; {currentYear} BlackWomensHealth.com. All rights reserved.</p>
+            <div className="flex space-x-4">
+              <a href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</a>
             </div>
           </div>
         </div>

@@ -34,7 +34,7 @@ const Terms = () => {
           
           <h2 className="text-2xl font-semibold mt-6 mb-4">5. Contact Us</h2>
           <p className="mb-4">
-            If you have any questions about these Terms, please contact us at info@blackwomenshealth.com or call (555) 123-4567.
+            If you have any questions about these Terms, please contact us at <a href="mailto:bwhmore@gmail.com" className="text-white/80 hover:text-white">bwhmore@gmail.com</a>.
           </p>
         </div>
       </div>
